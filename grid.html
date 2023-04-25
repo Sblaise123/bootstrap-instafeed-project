@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+    <title>Grid</title>
+</head>
+<body>
+  <div class="mx-auto" style="width: centered;">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-1" href="#">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+          </a>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Create Post
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Create a new post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <textarea placeholder="Add the captain of your post here"></textarea>
+      </div>
+      <div>
+          <button class="btn btn-light">
+              <span class="fa-solid fa-camera"></span>
+            </button>
+            <button class="btn btn-light">
+              <span class="fa-solid fa-location-dot"></span>
+            </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+<span>
+  <div class="justify-content-md-center">
+    <a href="http://127.0.0.1:5555/html/feed.html">Feed</a>
+  </div>
+</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav align-items-center">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Profile</button></li>
+                    <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                    <li><button class="dropdown-item" type="button">Privacy and data</button></li>
+                    <li><button class="dropdown-item" type="button"class="link-danger">Log Out</button></li>
+                  </ul>
+                </div>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="container justify-content-md-center my-lg-5">
+      <div class="row justify-content-md-center">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/id/237/210/310" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/seed/picsum/200/300" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://picsum.photos/200/300.webp" width="200" height="200" class="card-img-top" alt="...">
+                </div>
+          </div>
+      </div>
+      <div class="row justify-content-md-center">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/200/300.jpg" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+      </div>
+      <div class="row justify-content-md-center">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/200/300?grayscale" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://scx2.b-cdn.net/gfx/news/2019/4-dog.jpg" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://media.npr.org/assets/img/2011/11/07/istock_000002860901small-0e58429bef7fa7d052df8dfefedff1f78f3d3fa2-s1100-c50.jpg" width="200" height="200" class="card-img-top" alt="...">
+            </div>
+          </div>
+      </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>
